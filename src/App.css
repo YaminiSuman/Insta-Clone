@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+  /* height: 100vh; */
+}
+
+/* object-fit: contain ---> maintain aspect ratio */
+/* position - sticky and top 0 will make the insta logo stick to the top */
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerImage {
+  object-fit: contain;
+}
+
+.app__posts {
+  padding: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
